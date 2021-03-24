@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>    <!-- Here we use 'defer' instead of putting script at the end -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Screen 1 - Welcome -->
+        <div class="screen s1">
+            <h1 id="welcomeText" class="glitchy">Need something new ?</h1>
+            <div id="boxes"></div>
+            <div id="needsContainer">
+                <h6 class="needOption">For your team</h6>
+                <h6 class="needOption">For your company</h6>
+            </div>
+        </div>
+
+        <!-- Screen 2 - Too much -->
+        <div class="screen s2">
+            <h2 contenteditable="true" spellcheck="false" id="effect" class="off">Too much ?</h2>
+            <label id="onOff" >
+                <input type="checkbox" checked="true" onclick="toggle()">
+                <h6 id="onOffButton">On / Off</h6>
+            </label>
+        </div>
+
+        <!-- Screen 3 - Dispensable animations -->
+        <div class="screen s3">
+            <div class="titleContainer" >
+
+                <div class="swipe3 Dispensable">
+                    <h1 class="text3 Dispensable">Dispensable</h1>
+                </div>
+
+                <div class="swipe3 Animations">
+                    <h1 class="text3 Animations"> animations</h1>
+                </div>
+
+                <!-- <div class="rotation QuestionMark"> -->
+                    <h1 class="text3 QuestionMark"> ?</h1>
+                <!-- </div> -->
+
+            </div>
+
+            <button id="playButton" onclick=playAnimation()>PLAY</button>
+
+            <div class="animation-area">
+                <ul class="box-area">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Screen 4 - Contact me -->
+        <div class="screen s4">
+            <div class="card">
+                <img src="assets/portrait.png" class="portrait">
+                <div class="content">
+                    <h1 class="hello">Hi, I'm <strong class="name">Patern MALLE</strong></h1>
+                    <h2 class="webDev">Web Developer</h2>
+                    <p class="sumUp">French web-developer, recently graduated, following an intensive one year course with internship. Looking to put my technical skills and life experience to work in a team environment, interested in someone with a non standard professional path.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="screen s5" id="footer">
+            <a href="mailto:paternmalle@gmail.com" class="footer_link">paternmalle@gmail.com</a>
+        </footer>
+    </div> 
+
+    
+</body>
+</html>
