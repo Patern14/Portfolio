@@ -15,8 +15,8 @@ setInterval(function() {
     let glitch = document.getElementsByClassName('box');
     
     for (let i = 0; i < glitch.length; i++) {
-        bg.style.backgroundColor = "red";
-        console.log(bg.style.backgroundColor);
+        /* bg.style.backgroundColor = "red";
+        console.log(bg.style.backgroundColor); */
         glitch[i].style.left = Math.floor(Math.random()*100) + 'vw';
         glitch[i].style.top = Math.floor(Math.random()*100) + 'vh';
         glitch[i].style.width = Math.floor(Math.random()*400) + 'px';
