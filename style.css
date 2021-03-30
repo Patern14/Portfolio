@@ -505,6 +505,51 @@ input:checked + #onOffButton {
     padding: 1rem 1rem 1rem 3rem;
 }
 
+/* ===============================================================================================================
+    Screen 5 - What I do
+================================================================================================================ */
+#whatIdo-container {
+    /* outline: 1px solid red; */
+    outline-offset: 2px;
+    margin: 0rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* height: 50vh; */
+    line-height: 1.5;
+    color: white;
+}
+.whatIdo-item {
+    /* outline: 1px solid white; */
+    margin: 2rem;
+    width: 30%;
+    /* height: 65%; */
+    font-size: 1.1rem;
+}
+#central-item {
+    width: 40%;
+    /* height: 90%; */
+    font-size: 1.2rem;
+}
+.whatIdo-item > h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.whatIdo-item > p {
+    margin-bottom: 1rem;
+}
+.whatIdo-item > a {
+    /* text-decoration: none; */
+}
+.whatIdo-item > a:hover {
+    opacity: 0.7;
+}
+.whatIdo-item > a:visited {
+    color: yellow;
+}
+
 
 /* Screens Background ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .wrapper .screen:nth-child(1) {
@@ -520,7 +565,7 @@ input:checked + #onOffButton {
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,50,50,1) 100%);
 }
 .wrapper .screen:nth-child(5) {
-    background-color: #00779D;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,50,50,1) 100%);
 }
 .wrapper .screen:nth-child(6) {
 
